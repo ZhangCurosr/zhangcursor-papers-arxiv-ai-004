@@ -4,5 +4,33 @@
  "title": "TACTIC-Temporal-and-Context-Aware-LLM-Tactical-Planning-for",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-10-01 08:29:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1e5031d6-af04-44f6-b75c-1260f47f9e29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1e5031d6-af04-44f6-b75c-1260f47f9e29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:04:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LiDAR 攻击",
+    "多模态大语言模型",
+    "自动驾驶安全",
+    "战术规划",
+    "场景感知",
+    "物理对抗",
+    "灰盒威胁模型",
+    "CARLA"
+   ],
+   "field": "自动驾驶对抗性攻击与安全评估",
+   "innovations": [
+    "将物理LiDAR攻击形式化为场景依赖的战术规划问题，联合多原语互补选择与连续参数自适应",
+    "提出multimodal scene-graph推理与physics-grounded约束落地，分离度量估计与语义关系推断",
+    "设计异步generate-while-execute架构与∆路径刷新，将场景突变响应延迟从7.4s降至2.0s"
+   ],
+   "benchmarks": [
+    "CARLA 0.9.14 Town07",
+    "280 randomized multi-vehicle trials",
+    "Wilson 95% CI + Fisher exact test"
+   ]
+  }
+ }
 }

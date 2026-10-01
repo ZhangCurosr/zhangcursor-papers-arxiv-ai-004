@@ -4,5 +4,29 @@
  "title": "TTLab-at-Daleel-2026-STAR-Ar-Sequence-Tagging-for-Argument-R",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-10-01 08:27:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6a44bb53-16de-411f-94e5-66990583d524.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6a44bb53-16de-411f-94e5-66990583d524.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:05:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Argument Mining",
+    "Arabic NLP",
+    "Sequence Tagging",
+    "BERT-BiLSTM-CRF",
+    "Daleel 2026",
+    "Cross-domain Generalization"
+   ],
+   "field": "多语言论证挖掘",
+   "innovations": [
+    "提出STAR-Ar序列标注框架，将ADU检测与分类统一为BIO标注任务",
+    "CRF转移矩阵硬约束非法BIO路径（-10000惩罚）",
+    "复合成本敏感损失+发射概率级集成解码，缓解少资源不平衡问题"
+   ],
+   "benchmarks": [
+    "Daleel 2026 Task 2"
+   ]
+  }
+ }
 }

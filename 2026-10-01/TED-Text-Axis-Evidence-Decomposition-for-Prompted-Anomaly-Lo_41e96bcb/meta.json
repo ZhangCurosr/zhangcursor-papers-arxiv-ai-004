@@ -4,5 +4,34 @@
  "title": "TED-Text-Axis-Evidence-Decomposition-for-Prompted-Anomaly-Lo",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-10-01 08:29:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2ce1cfd4-2ce0-43b3-909a-7b5b4bb9fec1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2ce1cfd4-2ce0-43b3-909a-7b5b4bb9fec1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:04:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anomaly localization",
+    "vision-language model",
+    "CLIP",
+    "text-axis decomposition",
+    "hard false positive",
+    "post-hoc scoring",
+    "cross-domain transfer"
+   ],
+   "field": "工业异常检测与VLM表征解码",
+   "innovations": [
+    "揭示适应后CLIP-AD模型中真实缺陷与硬假阳性在局部异常图中的持续竞争现象",
+    "提出TED文本轴证据分解方法，用源域缺陷与硬-FP bank对比重构模糊patch的local score",
+    "证明frozen VLM backbone中已含可恢复缺陷证据，问题在于raw prompt readout质量而非表示容量"
+   ],
+   "benchmarks": [
+    "MVTec AD",
+    "VisA",
+    "MPDD",
+    "BTAD",
+    "MVTec AD 2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TRUSTWORTHY-RUNTIME-ERROR-HEALING-INREAL-WORLD-REPOSITORIES",
  "token": "sk-z9ycjZdD1...",
  "created_at": "2026-10-01 08:30:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/55c60e82-dde3-4755-ab32-92145cdf6334.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/55c60e82-dde3-4755-ab32-92145cdf6334.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:05:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "运行时错误修复",
+    "LLM代理",
+    "污点分析",
+    "软件可靠性",
+    "HealBench",
+    "HealGuard",
+    "仓库级修复"
+   ],
+   "field": "运行时错误修复与软件可靠性",
+   "innovations": [
+    "HealBench：首个仓库级运行时错误修复基准测试，统一评估框架支持跨方法公平比较",
+    "HealGuard：将静态/动态污点分析引入运行时修复场景，检测修复副作用对受保护操作的影响",
+    "HealCore：面向运行时修复场景的Python可分析子集，与污点分析流水线深度集成"
+   ],
+   "benchmarks": [
+    "HealBench",
+    "SWE-Bench",
+    "SWE-Bench Pro",
+    "R2E-Gym"
+   ]
+  }
+ }
 }

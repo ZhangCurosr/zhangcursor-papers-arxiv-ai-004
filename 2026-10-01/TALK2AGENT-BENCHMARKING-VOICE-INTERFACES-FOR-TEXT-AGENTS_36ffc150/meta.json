@@ -4,5 +4,10 @@
  "title": "TALK2AGENT-BENCHMARKING-VOICE-INTERFACES-FOR-TEXT-AGENTS",
  "token": "sk-QyQNBxyAI...",
  "created_at": "2026-10-01 08:30:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9a7572ff-220f-42a5-ae2f-8cbd1244f997.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9a7572ff-220f-42a5-ae2f-8cbd1244f997.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:05:01",
+  "chunks": 1
+ }
 }

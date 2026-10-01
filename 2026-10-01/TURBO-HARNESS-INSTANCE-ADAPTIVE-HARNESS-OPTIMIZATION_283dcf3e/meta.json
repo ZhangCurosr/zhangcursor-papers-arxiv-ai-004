@@ -4,5 +4,35 @@
  "title": "TURBO-HARNESS-INSTANCE-ADAPTIVE-HARNESS-OPTIMIZATION",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-01 08:29:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5b1b8625-dfee-43db-88e4-96347660c7c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5b1b8625-dfee-43db-88e4-96347660c7c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:05:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Harness Optimization",
+    "Instance-Adaptive",
+    "Reinforcement Learning",
+    "Agent Framework",
+    "Playbook",
+    "Code Generation",
+    "SWE-bench"
+   ],
+   "field": "大模型 Agent 系统优化",
+   "innovations": [
+    "将外部循环搜索经验蒸馏为结构化 Playbook，训练轻量 RL 编辑器实现实例级 Harness 补丁生成",
+    "证明小模型 (9B) 经 RL 微调后可匹敌更强冻结编辑器, 同时降低执行步数与成本"
+   ],
+   "benchmarks": [
+    "SWE-smith-MR",
+    "SWE-bench Verified",
+    "Terminal-Bench-2.1",
+    "ALFWorld",
+    "ScienceWorld",
+    "DBBench",
+    "WebShop"
+   ]
+  }
+ }
 }

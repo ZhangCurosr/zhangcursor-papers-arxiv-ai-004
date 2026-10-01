@@ -4,5 +4,32 @@
  "title": "TRACE-TRAJECTORY-SELECTION-FOR-PARALLEL-SCALING-OF-SEARCH-AG",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-01 08:27:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e1d4bf5c-a08f-4636-af8e-f25403c95e9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e1d4bf5c-a08f-4636-af8e-f25403c95e9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:04:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "trajectory selection",
+    "parallel scaling",
+    "search agents",
+    "graph neural networks",
+    "test-time scaling",
+    "evidence reasoning"
+   ],
+   "field": "Agent with Search and Reasoning",
+   "innovations": [
+    "提出出现保留的跨rollout证据图表示，将轨迹整合定义为选择而非生成",
+    "设计轻量级可迁移选择器，单检查点跨六种rollout策略和多个长时序生成器泛化",
+    "证明更好选择可减少rollout预算，K=8达到K=64投票性能，效率提升10-258倍"
+   ],
+   "benchmarks": [
+    "WebQA (NQ, HotpotQA, TriviaQA, PopQA, 2Wiki, MuSiQue, Bamboogle)",
+    "BrowseComp-Plus",
+    "FRAMES",
+    "GAIA"
+   ]
+  }
+ }
 }
