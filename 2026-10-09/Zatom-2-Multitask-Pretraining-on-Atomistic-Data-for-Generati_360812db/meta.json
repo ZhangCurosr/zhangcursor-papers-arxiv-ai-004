@@ -4,5 +4,35 @@
  "title": "Zatom-2-Multitask-Pretraining-on-Atomistic-Data-for-Generati",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-10-09 08:41:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/023cca08-d009-4662-80a9-4e6e7b8960c1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/023cca08-d009-4662-80a9-4e6e7b8960c1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:10:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "原子级生成模型",
+    "多任务预训练",
+    "条件流匹配",
+    "力条件",
+    "跨域迁移",
+    "蛋白质生成",
+    "统一原子建模"
+   ],
+   "field": "原子级/分子级生成建模",
+   "innovations": [
+    "统一 atom1+atom14 多域 Transformer 架构支持分子/材料/蛋白质生成与预测",
+    "联合生成-预测（MLIP）多任务预训练提升跨域迁移能力",
+    "力范数全局条件实现可控弛豫态生成"
+   ],
+   "benchmarks": [
+    "GEOM-Drugs",
+    "QM9",
+    "MP20",
+    "OMol25-4M",
+    "OMat24-1M",
+    "SCOPe-2k"
+   ]
+  }
+ }
 }
